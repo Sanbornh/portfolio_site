@@ -1,0 +1,33 @@
+// BASIC LAYOUT STUFF \\
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.white-space {
+	height: 80%;
+	width: 100%;
+}
+
+.buffer {
+	height: 33.3333%;
+}
+
+.name {
+	width: 33.3333%;
+	float: right;
+}
+
+.blurb {
+	width: 66.6666%;
+	float: left;
+	padding-top: 4%;
+}
+
+.main-content-wrapper {
+	height: 110%;
+	width: 100%;
+}

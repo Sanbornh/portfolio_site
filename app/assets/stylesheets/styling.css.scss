@@ -1,0 +1,23 @@
+// VARIABLE DECLARATIONS \\
+
+$main-green: #3CCF41;
+
+h1, p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+p {
+	font-weight: 300;
+	font-size: 0.8em;
+}
+
+// ---- MAIN CONTENT ---- \\
+
+.main-content-wrapper {
+	background-color: $main-green;
+}
