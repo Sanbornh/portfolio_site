@@ -2,13 +2,16 @@
 // -- FUNCTION DECLARATION -- \\
 
 function footerGrow(color) {
-	$('.footer').css( 'background-color', color )
-		.animate({height: '70%'}, 100)
-		.animate({top: '30%'}, 100);
+	setTimeout(function() { 
+		$('.footer').css( 'background-color', color )
+		.animate({height: '70%'}, {duration: 100, easing: 'easeOutQuad'})
+		.animate({top: '30%'}, {duration: 100, easing: 'easeOutQuad'});
+	}, 100);
 };
 
 function footerShrink() {
-	$('.footer').animate({top: '100%'}, 100).animate({height: '0%'}, 100)
+	$('.footer').animate({top: '100%'}, {duration: 100, easing: 'easeOutQuad'})
+		.animate({height: '0%'}, {duration: 100, easing: 'easeOutQuad'})
 		
 };
 
