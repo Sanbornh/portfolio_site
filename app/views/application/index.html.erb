@@ -1,70 +1,18 @@
-<div class="white-space">
-	<div class="buffer"></div>
-	<div class="name"><h1>Sanborn Hilland</h1>
-		<div class="blurb">
-			
-			<p>hi! i'm a toronto-based, full-stack ruby on rails developer with more than a passing interest in ux and ui design. i also have two philosophy degrees and a background in illustration for good measure. but, rather than reading about me, why don't you check out the good stuff below the fold.</p>
+<div class="column-wrapper">
+		<div class="content-container" id="blog-column" data-color="#CD52CF">
+			<div class="title-wrapper"><h1>Blog</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro, sed, fugit, possimus accusantium animi voluptas impedit magni nihil libero excepturi ad aut aliquam illo reprehenderit doloremque qui quibusdam accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nulla qui maiores accusamus eius unde delectus quisquam voluptate soluta nihil. Consequatur, ipsam veritatis quasi illum quae dicta quaerat minus minima.</p>
 		</div>
 
-
+	<div class="content-container" id="work-column" data-color="#E2E523">
+		<div class="title-wrapper"><h1>Work</h1></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia, iste quas earum nisi quae animi quod placeat neque odit reprehenderit quidem quia perferendis molestias totam alias assumenda sunt aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, magnam, velit alias necessitatibus aspernatur explicabo reiciendis ullam modi libero nisi doloremque dignissimos maiores officiis eveniet corrupti atque quo culpa deleniti!</p>
 	</div>
-
-</div>
-
-<div class="main-content-wrapper">
-	<div class="content-background"></div>
-	
-	<div class="social-links">
-		<ul>
-			<li>
-				<%= link_to "https://github.com/Sanbornh", target: "_blank" do %>
-					<p>github</p>
-				<% end %>
-			</li>
-			<li>
-				<%= link_to "https://twitter.com/Sanbornh", target: "_blank" do %>
-					<p>twitter</p>
-				<% end %>
-			</li>
-			<li>
-				<%= link_to "http://www.linkedin.com/pub/sanborn-hilland/7a/984/788", target: "_blank" do %>
-					<p>linkedIn</p>
-				<% end %>
-			</li>
-			<li>
-				<%= mail_to "sanbornh@rogers.com" do %>
-					<p>email</p>
-				<% end %>
-			</li>
-		</ul>
-
-	</div>
-
-	<div class="content">
-		<div class="column-wrapper">
-
-			
-				<div class="content-container" id="blog-column" data-color="#CD52CF">
-					<div class="title-wrapper"><h1>Blog</h1></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro, sed, fugit, possimus accusantium animi voluptas impedit magni nihil libero excepturi ad aut aliquam illo reprehenderit doloremque qui quibusdam accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nulla qui maiores accusamus eius unde delectus quisquam voluptate soluta nihil. Consequatur, ipsam veritatis quasi illum quae dicta quaerat minus minima.</p>
-				</div>
-
-			<div class="content-container" id="work-column" data-color="#E2E523">
-				<div class="title-wrapper"><h1>Work</h1></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, mollitia, iste quas earum nisi quae animi quod placeat neque odit reprehenderit quidem quia perferendis molestias totam alias assumenda sunt aliquid. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, magnam, velit alias necessitatibus aspernatur explicabo reiciendis ullam modi libero nisi doloremque dignissimos maiores officiis eveniet corrupti atque quo culpa deleniti!</p>
-			</div>
-			<%= link_to about_path do %>
-				<div class="content-container" id="about-column" data-color="#E55C30">
-					<div class="title-wrapper"><h1>About</h1></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere accusantium culpa blanditiis dolorem ipsum unde delectus impedit fugiat. In, quasi, cupiditate optio neque similique vero qui soluta ducimus veniam magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, molestiae, necessitatibus nobis voluptatibus odit eaque deserunt animi quod reprehenderit itaque reiciendis fugiat magni pariatur atque suscipit nemo alias praesentium voluptatum!</p>
-				</div>
-			<% end %>
+	<%= link_to about_path do %>
+		<div class="content-container" id="about-column" data-color="#E55C30">
+			<div class="title-wrapper"><h1>About</h1></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere accusantium culpa blanditiis dolorem ipsum unde delectus impedit fugiat. In, quasi, cupiditate optio neque similique vero qui soluta ducimus veniam magnam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, molestiae, necessitatibus nobis voluptatibus odit eaque deserunt animi quod reprehenderit itaque reiciendis fugiat magni pariatur atque suscipit nemo alias praesentium voluptatum!</p>
 		</div>
-		
-		<div class="footer-wrapper">
-			<div class="footer"></div>
-		</div>
-		
-	</div>
+	<% end %>
 </div>
 
