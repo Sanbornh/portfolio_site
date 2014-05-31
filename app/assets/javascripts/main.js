@@ -37,7 +37,7 @@ $( window ).ready(function() {
 
 	$(window).scroll(function() {
 	  if($(window).scrollTop() + $(window).height() == $(document).height()) {
-      $('.social-links').animate({top: '-5%'}, {duration: 200, easing: 'easeOutQuad'});
+      $('.social-links').animate({top: '-6%'}, {duration: 200, easing: 'easeOutQuad'});
 
       setTimeout(function() {
       	$('.social-links').css('z-index', 1);

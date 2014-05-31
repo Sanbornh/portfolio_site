@@ -1,7 +1,8 @@
 PortfolioSite::Application.routes.draw do
 
   get '/index', to: 'application#index'
-
+  get '/about', to: 'application#about'
+  
   root to: 'application#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

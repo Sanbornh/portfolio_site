@@ -28,7 +28,6 @@ a:link, a:hover, a:visited, a:active {
 .social-links {
 	p {
 		border-bottom: 1px solid black;
-		line-height: 1em;
 	}
 }
 
@@ -42,3 +41,8 @@ a:link, a:hover, a:visited, a:active {
 	border-bottom: 1px solid black;
 }
 
+// ----- FOOTER ----- \\
+
+.footer-wrapper {
+	background-color: $main-green;
+}
