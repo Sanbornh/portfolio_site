@@ -1,12 +1,15 @@
 // BASIC LAYOUT STUFF \\
 
+* {
+	-webkit-box-sizing: border-box;
+}
+
 html, body {
 	height: 100%;
 	width: 100%;
 }
 
-
-
+// --- WHITE SPACE --- \\
 .white-space {
 	height: 80%;
 	width: 100%;
@@ -22,12 +25,61 @@ html, body {
 }
 
 .blurb {
-	width: 66.6666%;
+	width: 80%;
 	float: left;
 	padding-top: 4%;
 }
 
-.main-content-wrapper {
+
+// --- CONTENT --- \\
+
+.main-content-wrapper, .content-background {
+	position: absolute;
 	height: 110%;
 	width: 100%;
 }
+
+.content {
+	position: relative;
+	height: 90%;
+	width: 100%;
+	top: 20%;
+}
+
+.column-wrapper {
+	position: relative;
+	height: 90%;
+	width: 80%;
+	margin: 0 auto;
+	top: 10%%;
+}
+
+.content-container {
+	height: 100%;
+	width: 33%;
+	float: left;
+	padding: 2%;
+}
+
+.title-wrapper {
+	line-height: 2em;
+}
+
+// --- FOOTER --- 
+
+.footer-wrapper {
+	height: 10%;
+	width: 100%;
+	position: relative;
+}
+
+.footer {
+	height: 0%;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+}
+
+
+
+

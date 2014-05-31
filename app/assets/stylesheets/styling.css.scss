@@ -1,6 +1,9 @@
 // VARIABLE DECLARATIONS \\
 
-$main-green: #3CCF41;
+$main-green:  #3CCF41;
+$main-pink:   #CD52CF;
+$main-yellow: #E2E523;
+$main-orange: #E55C30;
 
 h1, p {
 	font-family: 'Open Sans', sans-serif;
@@ -14,10 +17,16 @@ h1 {
 p {
 	font-weight: 300;
 	font-size: 0.8em;
+	line-height: 1.4em;
 }
 
 // ---- MAIN CONTENT ---- \\
 
-.main-content-wrapper {
+.content-background {
 	background-color: $main-green;
 }
+
+.title-wrapper {
+	border-bottom: 1px solid black;
+}
+
