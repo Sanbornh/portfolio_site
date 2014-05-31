@@ -30,12 +30,43 @@ html, body {
 	padding-top: 4%;
 }
 
+// --- TOP NAV --- \\
+
+.social-links {
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	// top: -5%;
+
+	ul {
+		height: 100%;
+		width: 100%;
+		padding-right: 12%;
+	}
+
+	li {
+		height: 100%;
+		float: right;
+		display: inline-block;
+		margin: 0 1%;
+
+		p {
+			line-height: 1.5em;
+		}
+	}
+}
 
 // --- CONTENT --- \\
 
-.main-content-wrapper, .content-background {
+.main-content-wrapper {
 	position: absolute;
-	height: 110%;
+	height: 90%;
+	width: 100%;
+}
+
+.content-background {
+	position: absolute;
+	height: 100%;
 	width: 100%;
 }
 
@@ -43,7 +74,7 @@ html, body {
 	position: relative;
 	height: 90%;
 	width: 100%;
-	top: 20%;
+	top: 10%;
 }
 
 .column-wrapper {

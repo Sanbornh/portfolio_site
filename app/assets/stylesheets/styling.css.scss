@@ -20,6 +20,18 @@ p {
 	line-height: 1.4em;
 }
 
+a:link, a:hover, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
+.social-links {
+	p {
+		border-bottom: 1px solid black;
+		line-height: 1em;
+	}
+}
+
 // ---- MAIN CONTENT ---- \\
 
 .content-background {
