@@ -70,6 +70,13 @@ html, body {
 	width: 100%;
 }
 
+// .content-background-1 {
+// 	position: absolute;
+// 	height: 6%;
+// 	width: 100%;
+// 	top: 94%;
+// }
+
 .content {
 	position: relative;
 	height: 90%;
@@ -90,6 +97,10 @@ html, body {
 	width: 33%;
 	float: left;
 	padding: 2%;
+
+	:hover {
+		cursor: pointer;
+	}
 }
 
 .title-wrapper {

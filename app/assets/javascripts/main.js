@@ -29,13 +29,13 @@ $( window ).ready(function() {
 
 	// Controls the colouring and animation of the
 	// footer on mouseover.
-	$('.content-container').mouseenter(function() {
-		footerGrow($(this).data('color'));
-	});
+	// $('.content-container').mouseenter(function() {
+	// 	footerGrow($(this).data('color'));
+	// });
 
-	$('.content-container').mouseleave(function() {
-		footerShrink();
-	});
+	// $('.content-container').mouseleave(function() {
+	// 	footerShrink();
+	// });
 
 	// Controls show/hide of social links
 	$(window).scroll(function() {
