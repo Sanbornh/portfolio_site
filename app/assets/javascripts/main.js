@@ -27,6 +27,8 @@ function socialShrink() {
 
 $( window ).ready(function() {
 
+	// Controls the colouring and animation of the
+	// footer on mouseover.
 	$('.content-container').mouseenter(function() {
 		footerGrow($(this).data('color'));
 	});
@@ -35,6 +37,7 @@ $( window ).ready(function() {
 		footerShrink();
 	});
 
+	// Controls show/hide of social links
 	$(window).scroll(function() {
 	  if($(window).scrollTop() + $(window).height() == $(document).height()) {
       $('.social-links').animate({top: '-6%'}, {duration: 200, easing: 'easeOutQuad'});
@@ -47,6 +50,20 @@ $( window ).ready(function() {
 	  if($(window).scrollTop() == 0) {
 	  	 $('.social-links').animate({top: '0%'}, {duration: 200, easing: 'easeOutQuad'}).css('z-index', -1);	
 	  }
+	});
+
+	// AJAX request for about page.
+	$('#about-column').click(function(){
+		// $.ajax({
+		// 	url: '/about',
+		// 	type: 'GET',
+		// 	dataType: 'html'
+		// }).done(function(data){
+		// 	console.log(data);
+		// });
+		$.getScript('/about').done(function(data) {
+			console.log(data);
+		});
 	});
 
 

@@ -1,0 +1,3 @@
+$('.content').fadeOut(500, function() {
+	$('.content').html("<%= j (render "about") %>").fadeIn(500);
+});
